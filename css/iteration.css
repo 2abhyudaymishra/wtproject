@@ -1,0 +1,58 @@
+
+*{
+    font-size: 17px;
+}
+.syntax{
+    background-color: rgb(227, 235, 235);
+    color: black;
+    font-size: larger;
+    margin : 3vh 0vw ;
+    padding: 2vh 5vw;
+    border: 3px solid  black ;
+    border-radius: 20px ;
+    width: 35vw;
+    height: 9vw;
+}
+.syntax2{
+    background-color: rgb(227, 235, 235);
+    color: black;
+    font-size: larger;
+    margin : 3vh 0vw ;
+    padding: 2vh 5vw;
+    border: 3px solid  black ;
+    border-radius: 20px ;
+    width: 35vw;
+    height: 15vw;
+}
+.code{
+    background-color: rgb(238, 255, 0);
+    color: black;
+    font-size: larger;
+    margin : 3vh 0vw ;
+    padding: 2vh 5vw;
+    border: 3px solid  black ;
+    border-radius: 20px ;
+    width: 35vw;
+    height: 23vw;
+}
+
+.output{
+    background-color: rgb(37, 38, 36);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    margin : 3vh 0vw ;
+    padding: 1vh 5vw;
+    border: 3px solid  rgb(255, 255, 255) ;
+    border-radius: 20px ;
+    width: 35vw;
+    height: 8vw;
+}
+
+.end{
+    height: 3vh;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 2vh;
+    text-align: center;
+}

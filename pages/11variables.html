@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/variable.css">
+    <title>Variables</title>
+</head>
+<body>
+    <h1 style="text-align: center;color: crimson;">Java Variables</h1>
+    <div class="b1" >
+    <p >
+        Variable in Java is a data container that saves the data values during Java program execution. Every variable is assigned a data type that designates the type and quantity of value it can hold. Variable is a memory location name of the data. <br><br>
+
+        A variable is a name given to a memory location. It is the basic unit of storage in a program.
+        <ul style="margin-left:20px ;">
+            <li>The value stored in a variable can be changed during program execution.
+            </li>
+            <li>A variable is only a name given to a memory location, all the operations done on the variable effects that memory location.</li>
+            <li>In Java, all the variables must be declared before use.</li>
+        </ul> 
+    </p>
+    </div>
+
+    <img src="../photos/java-declare.jpeg" alt="" style="margin-left: 30vw; margin-top: 25px; border: 2px solid black;">
+
+    <div class="b1" style="border: 1px solid black; background-color: rgb(237, 255, 121); ">
+        <p >
+            From the image, it can be easily perceived that while declaring a variable, we need to take care of two things that are: <br>
+            <ol>
+                <li><b>Datatype:</b> Type of data that can be stored in this variable. </li><br>
+                <li><b>Dataname:</b>  Name was given to the variable.</li>
+            </ol><br>
+            In this way, a name can only be given to a memory location. It can be assigned values in two ways: <br>
+
+            <ul>
+                <li>Variable Initialization</li><br>
+                <li>Assigning value by taking input</li>
+            </ul>  <br>
+            
+            <h2><b>How to initialize variables?</b></h2> <br>
+            It can be perceived with the help of 3 components that are as follows: <br>
+
+            <ul style="display: inline;">
+                <img src="../photos/Variables-in-Java.png" alt="" width="" style="margin-left: 3vw; margin-top: 25px; border: 2px solid black;display: inline-block;">
+                <li style="width: 400px;display: inline-block; font-size: 19px;margin-left: 10px;" ><b> > datatype:</b> Type of data that can be stored in this variable. <br> <br> <br>  <b> > variable_name:</b> Name given to the variable.<br> <br> <br> <br> <br>
+                <b>> value:</b>  It is the initial value stored in the variable.</li>
+            </ul>
+        </p>
+        </div>
+        <div class="b1">
+        <p>
+        Types of Variables in Java
+        Now let us discuss different types of variables which are listed as follows: 
+        <ol>
+            <li>Local Variables</li> <br>
+            <li>Instance Variables</li> <br>
+            <li>Static Variables</li> 
+        </ol>     
+        </p>
+        <div class="types" style="display: flex; flex-direction: row;">
+            <div class="left" >
+                <p> <h3>1. Local Variables </h3>
+
+                    A variable defined within a block or method or constructor is called a local variable. 
+                    <ul>
+                        <li>
+                    These variables are created when the block is entered, or the function is called and destroyed after exiting from the block or when the call returns from the function.</li> <br>
+                    <li>
+                    The scope of these variables exists only within the block in which the variable is declared. i.e., we can access these variables only within that block.</li> <br>
+                    <li>
+                    Initialization of the local variable is mandatory before using it in the defined scope.</li>
+                </ul>
+                </p> <br>
+                <p> <h3>2. Instance Variables </h3>
+
+                    Instance variables are non-static variables and are declared in a class outside any method, constructor, or block. 
+                    <ul>
+                        <li>
+                            As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed when the object is destroyed.</li> <br>
+                    <li>
+                        Unlike local variables, we may use access specifiers for instance variables. If we do not specify any access specifier, then the default access specifier will be used.</li> <br>
+                    <li> 
+                        Initialization of Instance Variable is not Mandatory. Its default value is 0</li> <br>
+                        <li>
+                            Instance Variable can be accessed only by creating objects.
+                        </li>
+                </ul>
+                </p> <br>
+                <p> <h3>3. Static Variables </h3>
+
+                    Static variables are also known as Class variables. 
+                    <ul>
+                        <li>
+                            These variables are declared similarly as instance variables. The difference is that static variables are declared using the static keyword within a class outside any method constructor or block.</li> <br>
+                    <li> 
+                        Unlike instance variables, we can only have one copy of a static variable per class irrespective of how many objects we create.</li> <br>
+                    <li>
+                        Static variables are created at the start of program execution and destroyed automatically when execution ends.Initialization of Static Variable is not Mandatory. Its default value is 0</li> <br>
+                        <li> 
+                            If we access the static variable like the Instance variable (through an object), the compiler will show the warning message, which won’t halt the program. The compiler will replace the object name with the class name automatically.
+                        </li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="right" style="width: 45vw; align-self: center;">
+            <img src="../photos/types-of-variables1.png" alt=""  style="" >
+            </div>
+        </div>
+
+        </div>
+        <div class="b1" style="border: none;">
+        <p>
+            <h3>Differences between the Instance variable Vs. the Static variables </h3>
+            Now let us do discuss the differences between the Instance variable Vs. the Static variables <br>
+            <ul>
+                <li>Each object will have its copy of the instance variable, whereas We can only have one copy of a static variable per class irrespective of how many objects we create.</li> <br>
+                <li>Changes made in an instance variable using one object will not be reflected in other objects as each object has its own copy of the instance variable. In the case of static, changes will be reflected in other objects as static variables are common to all objects of a class.</li> <br>
+                <li>We can access instance variables through object references, and Static Variables can be accessed directly using the class name.
+        </p>
+    </div>
+        <div class="end">
+            @WT_PROJECT
+        </div>
+</body>
+</html>

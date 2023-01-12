@@ -1,0 +1,111 @@
+
+body{
+    border: 5px double rgb(0, 0, 0);
+    background-color: rgb(187, 255, 255);
+}
+h1{
+    text-align: center;
+}
+.first{
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-size:  17px;;
+    background-color: white;
+    padding: 1vh 1vw;
+    border-radius: 20px;
+}
+.second,.third{
+    margin: 0vh 4vw;
+    display: flex;
+    height: 175vh;
+    width: 92vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 17px;
+}
+
+.s1{
+    background-color: white;
+    margin-left: 2vw;
+    margin-top: 4vh;
+    padding:10px 20px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.s1:hover{
+    color:rgb(0, 105, 0);
+    border: 3px solid rgb(0, 105, 0);
+    background-color: azure;
+    border-radius: 40px;
+    font-size: 18px;
+}
+.syntax{
+    text-align: center;
+    width: 15vw;
+    margin: 2vh 4vw;
+    padding: 0px 2vw 1px 2vw;
+    border-radius: 10px;
+    background-color: rgb(51, 49, 49);
+    color: azure;
+    border: 2px solid black;
+}
+.size{
+    text-align: center;
+    width: 15vw;
+    margin: 2vh 4vw;
+    padding: 0px 5px 1vh 1vw;
+    border-radius: 10px;
+    background-color: rgb(51, 49, 49);
+    color: azure;
+    border: 2px solid black;
+}
+
+.defaultval{
+    text-align: center;
+    margin: 2vh 4vw;
+    width: 15vw;
+    padding: 0px 5px 1px 1vw;
+    border-radius: 10px;
+    background-color: rgb(51, 49, 49);
+    color: azure;
+    border: 2px solid black;
+}
+.value{
+    width: 70vw;
+    margin: 2vh 4vw;
+    padding: 0px 5px 1px 1vw;
+    border-radius: 10px;
+    background-color: rgb(51, 49, 49);
+    color: azure;
+    border: 2px solid black;
+}
+.s2{
+    background-color: white;
+    margin-left: 4vw;
+    margin-top: 2vh;
+    padding:0px 25px;
+    padding-bottom: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 20vw;
+    height: 40vh;
+
+}
+.s2:hover{
+    color:rgb(0, 105, 0);
+    border: 3px solid rgb(0, 105, 0);
+    font-size: 18px;
+    background-color: azure;
+    border-radius: 30px;
+}
+.end{
+    height: 3vh;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 2vh;
+    text-align: center;
+}

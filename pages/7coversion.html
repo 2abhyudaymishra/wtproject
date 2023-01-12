@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .end{
+    height: 3vh;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 2vh;
+    text-align: center;
+}
+    </style>
+    <title>Conversion</title>
+</head>
+<body  style="border: 5px double black;">
+    <h1 style="text-align: center;color: brown;">Type Conversion</h1>
+
+    <p style="margin-left: 7vw;width: 80vw;padding:3vh 0px 0vh 5vh;border-radius: 25px;margin-top: 5vh;font-size: 17px;">
+        Java provides various data types just likely any other dynamic languages such as boolean, char, int, unsigned int, signed int, float, double, long, etc in total providing 7 types where every datatype acquires different space while storing in memory. When you assign a value of one data type to another, the two types might not be compatible with each other. If the data types are compatible, then Java will perform the conversion automatically known as Automatic Type Conversion, and if not then they need to be cast or converted explicitly. For example, assigning an int value to a long variable. 
+    </p>
+    <br> <br>
+    <p style="margin-left: 7vw;width: 80vw;padding:0px 0px 0px 5vh;border-radius: 25px;font-size: 17px;">
+        In Java, there are two types of casting:
+        <ul style="margin-left: 7vw;width: 80vw;padding:0px 0px 0vh 5vh;border-radius: 25px;">
+            <li>Widening Casting (automatically) - converting a smaller type to a larger type size 
+                <p style="color:red;font-size: 17px;" >byte &#8594 short &#8594 char &#8594 int &#8594 long &#8594 float &#8594 double</p>
+            </li> <br>
+            <li>Narrowing Casting (manually) - converting a larger type to a smaller size type
+                <p style="color: red;font-size: 17px;">double &#8594 float &#8594 long &#8594 int &#8594 char &#8594 short &#8594 byte</p>
+            </li> <br>
+        </ul>
+        
+    </p>
+    <img src="../photos/TYPE CONVERSION.png" alt=""  style="margin-left:18vw;margin-top: 5vh;">
+    <br>
+    <hr>
+    <div class="b1" style="margin-left: 7vw;width: 80vw;background-color: black;color: azure;padding:3vh 0px 3vh 5vh;border-radius: 25px;margin-top: 5vh;font-size: 17px;">
+        <h2 style="text-align: center;">Example for widening casting </h2><br>
+        <span style="color: rgb(0, 179, 255);">public class</span><span style="color: red;"> Main  </span> {<br> <br>
+            <span style="color: rgb(0, 179, 255);">public static void </span> <span style="color: red;">main(String[] args)</span>
+            {<br> <br>
+                <div class="b2" style="margin-left: 50px;">
+                <span style="color: rgb(0, 179, 255);">int</span> i = 100;<br> <br>
+        
+                // Automatic type conversion<br>
+                // Integer to long type<br>
+                <span style="color: rgb(0, 179, 255);">long</span> l = i;<br> <br> 
+         
+                // Automatic type conversion <br>
+                // long to float type <br> 
+                <span style="color: rgb(0, 179, 255);">float</span> f = l;<br> <br>
+        
+                // Print and display commands <br>
+                <span style="color: red;">System</span>.out.<span style="color: red;">println</span>("Int value " + i); <br>
+                <span style="color: red;">System</span>.out.<span style="color: red;">println</span>("Long value " + l); <br> 
+                <span style="color: red;">System</span>.out.<span style="color: red;">println</span>("Float value " + f);<br> <br>
+            }<br>
+        </div>
+        } <br> 
+    </div>
+    <div class="output" style="margin-left: 7vw;width: 80vw;background-color: rgb(44, 43, 43);color: azure;padding:3vh 0px 3vh 5vh;border-radius: 25px;margin-top: 5vh;font-size: 17px;">
+        <p>
+            <p >OUTPUT <br>
+            Int value 100 <br>
+            Long value 100<br>
+            Float value 100<br>
+
+        </p>
+    </div>
+        <br>
+    <hr>
+
+    <span>
+        <div class="code" style="margin-left: 7vw;width: 80vw;background-color: black;color: azure;padding:3vh 0px 3vh 5vh;border-radius: 25px;margin-top: 5vh;">
+        <h2 style="text-align: center;font-size: 17px;">Example for manual coversion </h2>
+
+        <span style="color: rgb(0, 179, 255);">public class</span><span style="color: red;"> Main  </span><br>
+        {<br>
+            <p style="margin-left:20px ;">
+            <span style="color: rgb(0, 179, 255);">public static void </span> <span style="color: red;">main(String[] args)</span> 
+            <br><br>{<br>
+                <p style="margin-left:40px ;">
+                <span style="color: rgb(0, 179, 255);">double</span> myDouble = 9.78d;<br> <br>
+                    <span style="color: rgb(0, 179, 255);">int</span> myInt = (<span style="color: rgb(0, 179, 255);">int</span>) myDouble; // Manual casting: double to int<br> <br>
+        
+                    <span style="color: red;">System</span>.out.<span style="color: red;">println</span>(myDouble);   // Outputs 9.78<br> <br>
+            <span style="color: red;">System</span>.out.        <span style="color: red;">println</span>(myInt);      // Outputs 9<br>
+        }
+            </p>
+        </p>
+        }<br>
+          
+    </div>
+
+    <div class="end">
+        @WT_PROJECT
+    </div>
+</body>
+</html>

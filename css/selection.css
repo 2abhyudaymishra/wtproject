@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(255, 255, 255);
+    
+  }
+
+  h1{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px;font-size: 32px;
+}
+
+h2 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 500;
+    margin: 10px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    
+    
+}
+  p {
+    color: rgba(15, 15, 15, 0.867);
+    font-family: verdana,sans-serif;
+    font-size:15px ;
+    margin: 5px;
+  }
+
+  .class1{
+      background-color: rgb(163, 162, 159);
+      width: 100%;
+
+  }
+  #list
+  {
+    font-family: verdana,sans-serif;
+    font-size:15px;  
+  }
+  .abhyudaya1{
+    color: rgb(254, 0, 51);
+    
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 110%;
+    
+}
+.table1
+{
+    border: 100px solid black;
+    width: 100%;
+}
+.end{
+  height: 3vh;
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-top: 2vh;
+  text-align: center;
+}
+  
+  

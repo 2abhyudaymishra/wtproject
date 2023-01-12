@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/data.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Data types in Java</h1>
+    <br>
+    <div class="first">
+    <p>
+        There are majorly two types of languages. 
+        <br>
+        <ul>
+            <li>
+        First, one is Statically typed language where each variable and expression type is already known at compile time. Once a variable is declared to be of a certain data type, it cannot hold values of other data types. Example: C, C++, Java.</li>
+        <li>
+        The other is Dynamically typed languages. These languages can receive different data types over time. Example: Ruby, Python</li>
+        </ul>
+        <br>
+        Java is statically typed and also a strongly typed language because, in Java, each type of data (such as integer, character, hexadecimal, packed decimal, and so forth) is predefined as part of the programming language and all constants or variables defined for a given program must be described with one of the data types.
+    </p>
+    </div>
+    <br>
+    <img src="../photos/Data-types-in-Java.jpg" alt="" width="600px" style="margin-left: 26vw;">
+
+    <h3 style="margin-left: 3vw;font-size: 25px;text-decoration: underline;color: black;"> Primitive Datatypes </h3> <br>
+
+    <div class="second">
+            <div class="s1">
+                
+                <b>1. Boolean : </b> Boolean data type represents only one bit of information either true or false, but the size of the boolean data type is virtual machine-dependent.Values of type boolean are not converted implicitly or explicitly (with casts) to any other type. But the programmer can easily write conversion code.
+                <div class="syntax">
+                    <h3 >Syntax  </h3> 
+                    boolean booleanVar;
+                    </div>
+                <div class="size"><h3 >Size  </h3>
+                    virtual machine dependent 
+                </div>
+                <div class="defaultval"><h3 >Default Value  </h3>
+                    false
+                </div>
+                <div class="value" ><h4 >Values : true, false </h4>
+                </div>
+            </div>
+
+                <div class="s1">
+                <b>2. Byte : </b> The byte data type is an 8-bit signed two's complement integer. The byte data type is useful for saving memory in large arrays.
+                <div class="syntax">
+                    <h3 >Syntax  </h3> 
+                    byte byteVar;
+                    </div>
+                <div class="size"><h3 >Size  </h3>
+                    1 byte ( 8 bits ) 
+                </div>
+                <div class="defaultval"><h3 >Default Value  </h3>
+                    0
+                </div>
+                <div class="value" ><h4 >Values : -128 to 127 </h4>
+                </div>
+                </div>
+
+                <div class="s1">
+                <b>3. Short :</b> The short data type is a 16-bit signed two's complement integer.Similar to byte, use a short to save memory in large arrays, in situations where the memory savings actually matters.
+                <div class="syntax">
+                    <h3 >Syntax  </h3> 
+                    short shortVar;
+                    </div>
+                <div class="size"><h3 >Size  </h3>
+                    2 byte ( 16 bits ) 
+                </div>
+                <div class="defaultval"><h3 >Default Value  </h3>
+                    0
+                </div>
+                <div class="value" ><h4 >Values : -32, 768 to 32, 767 (inclusive) </h4>
+                </div>
+                </div>
+                </div>
+
+                <div class="s1" style="margin-left:6vw ;">
+                <b>4. Int : </b> The int data type is a 32-bit signed two's complement integer. Its value-range lies between - 2,147,483,648 (-2^31) to 2,147,483,647 (2^31 -1) (inclusive). Its minimum value is - 2,147,483,648and maximum value is 2,147,483,647. Its default value is 0.
+                <div class="syntax">
+                    <h3 >Syntax  </h3> 
+                    int intVar;
+                    </div>
+                <div class="size"><h3 >Size  </h3>
+                    4 byte ( 32 bits )
+                </div>
+                <div class="defaultval"><h3 >Default Value  </h3>
+                    0
+                </div>
+                <div class="value" ><h4 >Values : -2, 147, 483, 648 to 2, 147, 483, 647 (inclusive) </h4>
+                </div>
+                </div>
+                </div>
+
+                <div class="s1" style="margin-left:6vw ;">
+                <b>5. Long :</b>5 The long data type is a 64-bit two's complement integer. The long data type is used when you need a range of values more than those provided by int.
+                <div class="syntax">
+                    <h3 >Syntax  </h3> 
+                    long longVar;
+                    </div>
+                <div class="size"><h3 >Size  </h3>
+                    8 byte ( 64 bits ) 
+                </div>
+                <div class="defaultval"><h3 >Default Value  </h3>
+                    0
+                </div>
+                <div class="value" ><h4 >Values : -9, 223, 372, 036, 854, 775, 808 to 9, 223, 372, 036, 854, 775, 807(inclusive) </h4>
+                </div>
+                </div>
+                </div>
+
+                <div class="s1" style="margin-left:6vw ;">
+                <b>6. Float :</b> The float data type is a single-precision 32-bit IEEE 754 floating-point. Use a float (instead of double) if you need to save memory in large arrays of floating-point numbers.
+                <div class="syntax">
+                    <h3 >Syntax  </h3> 
+                    float floatVar;
+                    </div>
+                <div class="size"><h3 >Size  </h3>
+                    4 byte ( 32 bits )
+                </div>
+                <div class="defaultval"><h3 >Default Value  </h3>
+                    0.0
+                </div>
+                <div class="value" ><h4 >Values : upto 7 decimal digits </h4>
+                </div>
+                </div>
+                </div>
+
+                <div class="s1" style="margin-left:6vw ;">
+                <b>7. Double :</b> The double data type is a double-precision 64-bit IEEE 754 floating-point. For decimal values, this data type is generally the default choice.
+                <div class="syntax">
+                    <h3 >Syntax  </h3> 
+                    double doubleVar;
+                    </div>
+                <div class="size"><h3 >Size  </h3>
+                    8 byte ( 64 bits ) 
+                </div>
+                <div class="defaultval"><h3 >Default Value  </h3>
+                    0.0
+                </div>
+                <div class="value" ><h4 >Values : upto 16 decimal digits </h4>
+                </div>
+                </div>
+                </div>
+
+                <div class="s1" style="margin-left:6vw ;">
+                <b>8. char :</b> The char data type is a single 16-bit Unicode character. Its value-range lies between '\u0000' (or 0) to '\uffff' (or 65,535 inclusive).The char data type is used to store characters.
+                <div class="syntax">
+                    <h3 >Syntax  </h3> 
+                    char charVar;
+                    </div>
+                <div class="size"><h3 >Size  </h3>
+                    2 byte ( 16 bits )
+                </div>
+                <div class="defaultval"><h3 >Default Value  </h3>
+                    '\u0000'
+                </div>
+                <div class="value" ><h4 >Values :'\u0000' (0) to '\uffff' (65535)</h4>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <h3 style="margin-left: 3vw;font-size: 25px;text-decoration: underline;color: rgb(20, 131, 20);">Non-Primitive Data Types </h3> <br>
+
+            <div class="third" style="height: 100vh;">
+                <div class="s2">
+                <h4 style="text-align: center;font-size: large;"> <b> String </b> </h4> Strings are defined as an array of characters.The string is designed to hold a sequence of characters in a single variable.
+                </div>
+                <div class="s2">
+                <h4 style="text-align: center;font-size: large;"> <b> Array </b> </h4> An array is a group of like-typed variables that are referred to by a common name. In Java, all arrays are dynamically allocated.The size of an array must be specified by an int value and not long or short.The direct superclass of an array type is Object.
+                </div>
+                <div class="s2">
+                    <h4 style="text-align: center;font-size: large;"> <b> Object </b> </h4>  It is a basic unit of Object-Oriented Programming and represents real-life entities. <br> An object consists of : State , Behavior and Identity.
+                </div>
+                <div class="s2" style="margin-top: 0px; margin-left: 18vw;height: 45vh;">
+                <h4 style="text-align: center;font-size: large;"> <b> Class </b> </h4> A class is a user-defined blueprint or prototype from which objects are created.It represents the set of properties or methods that are common to all objects of one type. 
+                </div>
+                <div class="s2" style="margin-top: 0px; margin-left: 10vw;height: 45vh;">
+                <h4 style="text-align: center;font-size: large;"> <b> Interface </b> </h4>  Interfaces specify what a class must do and not how. It is the blueprint of the class. If a class implements an interface and does not provide method bodies for all functions specified in the interface, then the class must be declared abstract.
+                </div>
+            </div>
+
+            <div class="end">
+                @WT_PROJECT
+            </div>
+</body>
+</html>

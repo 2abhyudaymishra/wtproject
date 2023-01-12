@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body{
+            background-color: rgb(29, 242, 242);
+        }
+        li a:hover{
+            color: black;
+            font-weight: bolder;
+        }
+        .cup{
+            height: 48vh;
+        }
+        .vapour ul li{
+            list-style: none;
+            width: 6px;
+            height: 20px;
+            background-color: azure;
+            float: left;
+            margin-top: 24vh;
+            margin-left: 4vw;
+            animation: animate 7s infinite linear;
+        }
+        .cup img{
+            margin-left: 10vw;
+        }
+
+        @keyframes animate {
+            0%{
+                transform: translateY(0);
+                opacity: 1;
+                filter: blur(3px);
+            }
+
+            100%{
+                transform: translateY(-200px);
+                opacity: 0;
+            }
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <i style="text-decoration: underline;font-size: larger;margin-left: 56px;color: black;" >Topics</i>
+    <ul>
+    <li><a href="6data.html" target="show" style="text-decoration: none;">Data Types</a></li> <br>
+    <li><a href="11variables.html" target="show" style="text-decoration: none;">Variables</a></li> <br>
+    <li><a href="7coversion.html" target="show" style="text-decoration: none;">Type Coversion</a></li><br>
+    <li><a href="8Selection.html" target="show" style="text-decoration: none;">Selection Statement</a></li><br>
+    <li><a href="9iteration.html" target="show" style="text-decoration: none;">Iteration Statements</a></li><br>
+    <li><a href="10branch.html" target="show" style="text-decoration: none;">Branch Control</a></li><br>
+    </ul>
+    <div class="cup">
+        <div class="vapour">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+        </ul>
+    </div>
+        <img src="../photos/tea1.png" alt="" width="150px" height="100px" >
+    </div>
+</body>
+</html>
